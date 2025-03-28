@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.27)  1 MAR 2025 16:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.27)  27 MAR 2025 20:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -367,43 +367,43 @@ Package hyperref Info: Link coloring OFF on input line 126.
 \openout3 = `resume.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 147.
+(Font)              <7> on input line 133.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 147.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 147.
+(Font)              <5> on input line 133.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 133.
  (C:\Program Files\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 148.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 134.
  (C:\Users\mschm\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 149.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 135.
  (C:\Users\mschm\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 150.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 136.
  (C:\Users\mschm\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 150.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 136.
 
-Overfull \hbox (1.3521pt too wide) in paragraph at lines 147--153
+Overfull \hbox (1.3521pt too wide) in paragraph at lines 133--140
  [][] 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 156.
+(Font)              using `OT1/cmr/bx/n' instead on input line 144.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 166.
+(Font)              <10.95> on input line 156.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 166.
+(Font)              <8> on input line 156.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 166.
+(Font)              <6> on input line 156.
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 204--206
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 194--196
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 210--212
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 200--202
 []  
  []
 
@@ -424,20 +424,20 @@ L3 programming layer <2024-01-04>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 7F4C9524FF1A2C288F9484A83FD7AE03;544.
+(rerunfilecheck)             Checksum: 3C37A8D754BDACF3701A048D4F9EE53B;554.
  ) 
 Here is how much of TeX's memory you used:
- 14137 strings out of 474486
- 244453 string characters out of 5753570
- 1953542 words of memory out of 5000000
- 36252 multiletter control sequences out of 15000+600000
- 565533 words of font info for 64 fonts, out of 8000000 for 9000
+ 14142 strings out of 474486
+ 244490 string characters out of 5753570
+ 1955542 words of memory out of 5000000
+ 36254 multiletter control sequences out of 15000+600000
+ 566129 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,569b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\mschm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/mschm/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/mschm/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 129842 bytes).
+ 75i,11n,79p,559b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\mschm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/mschm/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/mschm/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on resume.pdf (1 page, 147030 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

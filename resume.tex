@@ -90,8 +90,8 @@
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textbf{\small #2} \\
-      \textit{\small#3} & \textit{\small #4} \\
+      {\small\textbf{#1}} & {\small\textbf{#2}} \\
+      {\footnotesize\textit{#3}} & {\footnotesize\textit{#4}} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -126,20 +126,6 @@
 \begin{document}
 
 %----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
-% \begin{center}
-%     {\Huge \scshape Michael Schmidlin} \\ \vspace{1pt}
-%     1234 W Water St, Corning NY 14905 \\ \vspace{1pt}
-%     \small \raisebox{-0.1\height}\faPhone\ 607-438-8197 ~ 
-%     \href{mailto:mschmidlin1@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{mschmidlin1@gmail.com}} ~ 
-%     \href{https://www.linkedin.com/in/michael-schmidlin/}{\raisebox{-0.2\height}\faLinkedin\ \underline{https://www.linkedin.com/in/michael-schmidlin/}}  ~
-%     \href{https://github.com/mschmidlin1}{\raisebox{-0.2\height}\faGithub\ \underline{https://github.com/mschmidlin1}}
-%     \vspace{-8pt}
-% \end{center}
 \begin{center}
     {\Huge \scshape Michael Schmidlin} \\
     \vspace{3pt}
@@ -148,38 +134,42 @@
       \raisebox{-0.1\height}\faPhone\ 607-438-8197 &
       \href{mailto:mschmidlin1@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ mschmidlin1@gmail.com} \\
       \href{https://www.linkedin.com/in/michael-schmidlin/}{\raisebox{-0.2\height}\faLinkedin\ linkedin.com/in/michael-schmidlin/} &
-      \href{https://github.com/mschmidlin1}{\raisebox{-0.2\height}\faGithub\ github.com/mschmidlin1}
+      \href{https://github.com/mschmidlin1}{\raisebox{-0.2\height}\faGithub\ github.com/mschmidlin1} \\
+      \raisebox{-0.1\height} & \href{https://michael-schmidlin.com}{\raisebox{-0.2\height}\faGlobe\ michael-schmidlin.com}
     \end{tabular}
   \end{center}
 
 %-----------EXPERIENCE-----------
+\vspace{-24pt}
 \section{Summary}
-Data Scientist (MS) with 7 years of experience in machine vision and automated measurement systems. Expertise in developing robust software solutions within complex codebases, applying data science to optical metrology and manufacturing. Proven ability to collaborate with cross-functional teams to deliver impactful results.
+Data Scientist (MS) with 7+ years of experience in machine vision and automated measurement systems. Expertise in developing robust software solutions within complex codebases and applying data science to optical metrology. Proven ability to collaborate with cross-functional teams to deliver impactful results.
 
 
 %-----------EXPERIENCE-----------
 \section{Work Experience}
   \resumeSubHeadingListStart
-
+    \item
+    {\large\textbf{Corning Incorporated}}
+    \vspace{-4pt}
     \resumeSubheading
-      {Corning Incorporated}{September 2022 -- Current}
+      {Gorilla Glass}{2022 -- Current}
       {Sr. Data Scientist}{Corning, NY}
       \resumeItemListStart
-        \resumeItem{Led a team of 3 through a code refactor of 10,000 plus lines of essential image processing code in order to make the code base more flexible and easily expandable.}
-        \resumeItem{Trained and deployed an image classification model as part of a larger feature detection image processing algorithm.}
-        \resumeItem{Developed a system for "Image Validation" to pre-validate measurement images before the measure button is pressed on an offline measurement system. The validation procedure runs at 20fps in live view which insures measurement quality before a measurement is completed.}
-        \resumeItem{Modeled glass frangibility (brittle-ness) with Logistic Regression in order to determine the USL (Upper Spec Limit) for glass stress in production.}
-        \resumeItem{Deployed python streamlit apps for a range of uses including modeling glass attributes, data analysis, and data reporting.}
+        \resumeItem{Led data science initiatives to improve characterizations of chemically strengthened glass used in mobile devices.}
+        \resumeItem{Decreased alpha loss in production by enhancing an existing image processing algorithm with a classification neural network. The classification model significantly improved feature detection in edge case scenarios.}
+        \resumeItem{Reduced beta risk in the measurement system by developing a system to validate measurement images in live view. The image processing runs asynchronously at 20fps while annotating image features which creates a smooth user experience.}
+        \resumeItem{Expanded acceptable range of glass stress by $\sim 20\%$ without increasing beta risk modeling glass frangibility (brittleness) with Logistic Regression in order to more accurately determine the USL (Upper Spec Limit). The model was deployed to a streamlit web app for use with future glass recipes.}
+        \resumeItem{Enabled consistent software releases by automating Gauge Repeatability and Reproducibility (GRR) analysis in a streamlit web app for use by our software QA (Quality Assurance) team.}
+        \resumeItem{Delivered a flexible and expandable C\# library by leading a team of three people through a large refactor project. The project transformed 10K+ lines of code from a single file into a structured class system spanning over 20 files.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Corning Incorporated}{May 2018 -- September 2022}
+      {Pharmaceutical Technologies}{2018 -- 2022}
       {Measurement Engineer}{Corning, NY}
       \resumeItemListStart
+        \resumeItem{Accelerated development of glass vial measurement systems to high volume manufacturing as part of \$204M government program \textit{Operation Warp Speed}.}
         \resumeItem{Performed and automated data analysis on production data using python scripts and SQL queries to determine effectiveness of inline measurement systems.}
-        \resumeItem{Quantified repeatability of measurement systems through GRR (Gauge Reteatability and Reproducability) and ANOVA (Analysis of Variance) across a wide range of measurements systems that measure glass attributes such as stress, thickness, defect dection, warp, and dimensions (width and height).}
-        \resumeItem{Accelerated development of glass vial measurement systems to high volume manufacturing as part of \$204M
-        government program \textit{Operation Warp Speed}.}
+        \resumeItem{Quantified repeatability of measurement systems through GRR and Analysis of Variance across a wide range of glass attributes such as stress, thickness, warp, and defect sizing.}
     \resumeItemListEnd
     
   \resumeSubHeadingListEnd
@@ -189,27 +179,27 @@ Data Scientist (MS) with 7 years of experience in machine vision and automated m
 \section{Education}
 \resumeSubHeadingListStart
   \resumeSubheading
-    {Data Science Master's Degree}{May 2023}
+    {Data Science Master's Degree}{2023}
     {University of Denver, Daniel Felix Ritchie School of Engineering \& Computer Science}{Remote}
   \resumeSubheading
-    {Math \& Music Bachelor's Degree}{May 2018}
+    {Math \& Music Bachelor's Degree}{2018}
     {State University of New York at Potsdam}{Potsdam, NY}
 \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
-\section{Non-work Projects}
+\section{Additional Projects}
     \vspace{-5pt}
     \resumeSubHeadingListStart
       \resumeProjectHeading
           {\textbf{Slide Quest} $|$ \emph{Python, pygame}}{2024-2025}
           \begin{nobulletlist}
-            \projectDescription{A puzzle game developed in python for PC. The game has several key features including automatic seeded map generation, a breadth first search algorithm to solve the level in the least number of moves, and a level editor which is used to create custom kernels that are used for seeded map generation.}
+            \projectDescription{A top down puzzle game developed in python for PC. The game has several key features including automatic seeded map generation, a breadth first search algorithm to solve the level in the least number of moves, and a level editor which is used to create custom kernels that are used for seeded map generation. The game also features modern software architecture practices like dependency injection and IOC.}
           \end{nobulletlist}
           \vspace{-13pt}
       \resumeProjectHeading
-          {\textbf{Master's Capstone: Stock Price Data Analysis} $|$ \emph{Python, alpaca, pytorch}}{April 2023}
+          {\textbf{Master's Capstone: Stock Price Data Analysis} $|$ \emph{Python, alpaca, pytorch}}{2023}
           \begin{nobulletlist}
-            \projectDescription{A data analysis project focusing on predicting future stock prices. News data was scraped and cleaned using custom website scraping code and then classified using sentiment analysis. RNN (Recurrent Neural Network), LSTM (Long Short Term Memory), and GRU (Gated Recurrent Unit) neural networks were used to try to preduct future stock prices based solely on historical stock prices. A trade bot was built with alpaca-py for data collection and automated stock trading.}
+            \projectDescription{A data analysis project focusing on predicting future stock prices. News data was scraped and cleaned using custom website scraping code and then classified using sentiment analysis. RNN (Recurrent Neural Network), LSTM (Long Short Term Memory), and GRU (Gated Recurrent Unit) neural networks were trained on historical stock data and then used to forecast future prices. A trade bot was built with alpaca-py for data collection and automated stock trading.}
           \end{nobulletlist}
             \vspace{-13pt}
     \resumeSubHeadingListEnd
@@ -223,7 +213,7 @@ Data Scientist (MS) with 7 years of experience in machine vision and automated m
     \small{\item{
      \textbf{Programming Languages}{: Python, C\#, SQL, R, C, C++} \\
      \textbf{Tech Stack}{: VS Code, Visual Studio, .Net, WPF, Winforms, Git, S3, Machine Learning, IOC/Dependency Injection} \\
-     \textbf{Data Analysis}{: Python, Excel, JMP, Minitab} \\
+     \textbf{Data Analysis}{: Python, Excel, JMP, Minitab, Six Sigma Greenbelt} \\
      \textbf{Applicable Libraries}{: Open-CV (Emgu.CV), Numpy, Pandas, Matplotlib, Plotly, streamlit, pytorch, tensorflow} \\
     }}
  \end{itemize}
