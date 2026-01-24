@@ -1,0 +1,18 @@
+
+
+
+Bullets to add for experience:
+IMPACT Created several WPF tool applications complete with installers for use by our glass research and development team. All tool apps are built with MVVM structure and dependency injection for a flexible and expandable structure.
+
+Something about working in insight with dependency injection and IOC?
+
+add something about mentoring junior engineers and interns
+
+
+add a bunch of buzzwords and technical skills
+Programming Languages: Python, C#, SQL, R, C, C++
+Tech Stack: VS Code, Visual Studio, .Net, WPF, Winforms, Git, S3, Machine Learning, IOC/Dependency Injection
+Data Analysis: Python, Excel, JMP, Minitab, Six Sigma Greenbelt
+Applicable Libraries: Open-CV (Emgu.CV), Numpy, Pandas, Matplotlib, Plotly, streamlit, pytorch, tensorflow
+
+
