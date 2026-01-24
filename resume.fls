@@ -173,7 +173,6 @@ INPUT C:\Users\mschm\AppData\Roaming\MiKTeX\fonts\tfm\public\fontawesome5\fa5bra
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
@@ -188,8 +187,8 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\latex-fonts\lasy6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti9.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcti1000.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\mschm\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\mschm\AppData\Roaming\MiKTeX\fonts\enc\dvips\fontawesome5\fa5free2.enc
@@ -198,8 +197,8 @@ INPUT C:\Users\mschm\AppData\Roaming\MiKTeX\fonts\enc\dvips\fontawesome5\fa5bran
 INPUT resume.aux
 INPUT .\resume.out
 INPUT .\resume.out
-INPUT C:\Users\mschm\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\mschm\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\mschm\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcti1000.pk
+INPUT C:\Users\mschm\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcti1000.pk
 INPUT C:\Users\mschm\AppData\Roaming\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Brands-Regular.pfb
 INPUT C:\Users\mschm\AppData\Roaming\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Brands-Regular.pfb
 INPUT C:\Users\mschm\AppData\Roaming\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Free-Solid.pfb
