@@ -158,7 +158,7 @@
 %-----------EXPERIENCE-----------
 \vspace{-24pt}
 \section{Summary}
-Data Scientist (MS) with 8+ years of experience in machine vision and automated measurement systems. Expertise in developing robust software solutions within complex codebases and applying data science to optical metrology. Proven ability to collaborate with cross-functional teams to deliver impactful results.
+Senior Data Scientist with over 8 years of expertise in machine vision and automated optical metrology. Specialist in architecting robust software within complex, large-scale codebases using modern architecture practices. Proven track record of bridging the gap between data science and physical measurement systems to deliver high impact results.
 
 
 %-----------EXPERIENCE-----------
@@ -169,11 +169,15 @@ Data Scientist (MS) with 8+ years of experience in machine vision and automated 
       {Sr. Data Scientist}{2022 -- Current}
       \resumeTakeaway{Led data science initiatives to improve characterizations of chemically strengthened glass used in mobile devices which enabled quality control of the manufacturing process.}
       \resumeItemListStart
-        \resumeItem{Invented a new algorithm (patent pending) to localize new types of features in an image using a moving window Fourier Transform.}
-        \resumeItem{Removed a production blocking issue for the next genration of glass-ceramic phone glass by using image normalization to correct for optical aberrations in the background of the image (patent pending).}
+        \resumeItem{Functioned as the teams expert on EPCS (Evanescent Prism Coupling Spectroscopy) technology. Documented knowledge in slide decks and gave trainings to large audiences to educate people on the physics, optics, and image processing of the system. }
+        \resumeItem{Delivered a stand-alone WPF(Windows Presentation Foundation) application for doing IWKB (Inverse Wentzel-Kramers-Brillouin) processing in order to extract stress profiles from evanescent field images.}
+        \resumeItem{Invented a new algorithm (patent pending) to localize a specific image feature using a moving window Fourier Transform for new foldable glass product.}
+        \resumeItem{Mentored and led projects with junior engineers and interns, coaching them on calculus, software architecture, and machine learning.}
+        \resumeItem{Resolved a production blocking issue for the next genration of glass-ceramic phone glass by using image normalization to correct for optical aberrations in the background of the image (patent pending). Implemented solution in production software complete with live view of normalized images, and calibration steps for capturing background images.}
+        \resumeItem{Created several WPF tool applications complete with installers for use by our glass research and development team. All tool apps are built with MVVM structure and dependency injection for a flexible and expandable structure.}
         \resumeItem{Decreased production loss by enhancing an existing image processing algorithm with a classification neural network. The classification model improved feature detection in edge case scenarios by 90\%.}
-        \resumeItem{Reduced risk for customer in the measurement system by developing a software framework to validate measurement images in live camera view. The image processing runs asynchronously at 20fps while annotating image features which creates a smooth user experience.}
-        \resumeItem{Expanded acceptable range of glass stress by $\sim 20\%$ without increasing risk to customer by modeling glass frangibility (brittleness) with Logistic Regression in order to more accurately determine the USL (Upper Spec Limit). The model was deployed to a streamlit web app for use with future glass recipes.}
+        \resumeItem{Reduced risk for customer due to erroneous measurement data by developing a software framework to validate measurement images in live camera view. The image processing runs asynchronously at 20fps while annotating image features which creates a smooth user experience.}
+        \resumeItem{Expanded acceptable range of glass stress by $\sim 20\%$ without increasing risk to customer by modeling glass frangibility (brittleness) with Logistic Regression in order to more accurately determine the USL (Upper Spec Limit). The model was deployed to a streamlit web app for use with future glass recipes and has since been used 1,000+ times for glass recipe development and USL generation.}
         \resumeItem{Enabled 5 years of consistent software releases by automating Gauge Repeatability and Reproducibility (GRR) analysis in a streamlit web app for use by our software QA (Quality Assurance) team.}
         \resumeItem{Delivered a flexible and expandable C\# library by leading a team of three people through a large refactor project. The project transformed 10K+ lines of code from a single file into a structured class system spanning over 20 files.}
       \resumeItemListEnd
@@ -205,6 +209,36 @@ Data Scientist (MS) with 8+ years of experience in machine vision and automated 
     \vspace{-5pt}
     \resumeSubHeadingListStart
       \resumeProjectHeading
+          {\textbf{TrendLine} $|$ \emph{Python, alpaca, Ollama}}{2026}
+          \begin{nobulletlist}
+            \projectDescription{Engineered an automated stock trading program which uses financial news from RSS(Really Simple Syndication) feeds, predicts news sentiment using an Ollama language model, then trades stocks. Contains the main TrendLine algorithm as well as a seperate dashboard app for reporting equity, trades, and plots for profit/loss by different factors. The application uses comprehensive logging to provide easy debug and is built on an architectures of services which use a singleton metaclass.}
+          \end{nobulletlist}
+            \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Budget Analysis App} $|$ \emph{Python, streamlit, plotly}}{2026}
+          \begin{nobulletlist}
+            \projectDescription{A streamlit web app for analyzing credit card spend. Contains full user authentication and secure data storage in a google cloud bucket. Features include custom categories and dynammic html reports with interactive charts.}
+          \end{nobulletlist}
+            \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Harmonic Series Analysis} $|$ \emph{HTML, CSS, JavaScript}}{2025}
+          \begin{nobulletlist}
+            \projectDescription{A signal analysis of a single trumpet note to investigate what components of the signal contribute to the timbre of the instrument. This analysis draws on both data science and musical expertise to produce a unique perspective for the analysis.}
+          \end{nobulletlist}
+            \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Portfolio Website} $|$ \emph{HTML, CSS, JavaScript}}{2025}
+          \begin{nobulletlist}
+            \projectDescription{A static website to document professional history and data science related projects. Features include a single page design, responsive layout, dark/light mode toggle and interactive elements with smooth animations.}
+          \end{nobulletlist}
+            \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Python Library: ds-flow} $|$ \emph{Python}}{2025}
+          \begin{nobulletlist}
+            \projectDescription{Created a custom library to hold generic code relevant to data science. Contains an architecture built for wrapping common data science libraries such as numpy, pandas, and pytorch. Features hooks to automatically deploy when a new version tag is created.}
+          \end{nobulletlist}
+            \vspace{-13pt}
+      \resumeProjectHeading
           {\textbf{Slide Quest} $|$ \emph{Python, pygame}}{2024-2025}
           \begin{nobulletlist}
             \projectDescription{Developed a top down puzzle game in python for PC. The game has several key features including automatic seeded map generation, a breadth first search algorithm to solve the level in the least number of moves, and a level editor which is used to create custom kernels that are used for seeded map generation. The game also features modern software architecture practices like dependency injection and IOC.}
@@ -216,6 +250,7 @@ Data Scientist (MS) with 8+ years of experience in machine vision and automated 
             \projectDescription{Analyzed stock data in order to understand key driver of stock price. News data was scraped and cleaned using custom website scraping code and then classified using sentiment analysis. RNN (Recurrent Neural Network), LSTM (Long Short Term Memory), and GRU (Gated Recurrent Unit) neural networks were trained on historical stock data and then used to forecast future prices. A trade bot was built with alpaca-py for data collection and automated stock trading.}
           \end{nobulletlist}
             \vspace{-13pt}
+
     \resumeSubHeadingListEnd
 \vspace{-8pt}
 
@@ -225,13 +260,16 @@ Data Scientist (MS) with 8+ years of experience in machine vision and automated 
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Programming Languages}{: Python, C\#} \\
-     \textbf{Tech Stack}{: VS Code, Visual Studio, .Net, WPF, Git, S3, Machine Learning, IOC/Dependency Injection} \\
+     \textbf{Programming Languages}{: Python, C\#, SQL, R, C, C++} \\
+     \textbf{Tech Stack}{: VS Code, Visual Studio, .Net, WPF, Winforms, Git, S3, Machine Learning, IOC/Dependency Injection} \\
+     \textbf{Data Analysis}{:  Python, Excel, JMP, Minitab, Six Sigma Greenbelt} \\
+     \textbf{Applicable Libraries}{: Open-CV (Emgu.CV), Numpy, Pandas, Matplotlib, Plotly, streamlit, pytorch, tensorflow} \\
     }}
  \end{itemize}
  \vspace{-16pt}
 
-
+ \section{Hobbies}
+Racquetball $|$ Disc Golf $|$ Marathon Running $|$ Downhill Skiing $|$ PC Gaming $|$ Trumpet 
 
 
 

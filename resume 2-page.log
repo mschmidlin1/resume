@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.27)  24 JAN 2026 14:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.27)  3 MAY 2026 11:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -398,12 +398,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 169.
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 208--210
-[]  
- []
-
-
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 214--216
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 212--214
 []  
  []
 
@@ -414,7 +409,42 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{C:/Users/mschm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/mschm/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/Users/mschm/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/mschm/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}] (resume 2-page.aux)
+{C:/Users/mschm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/mschm/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/Users/mschm/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/mschm/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}]
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 218--220
+[]  
+ []
+
+
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 224--226
+[]  
+ []
+
+
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 230--232
+[]  
+ []
+
+
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 236--238
+[]  
+ []
+
+
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 242--244
+[]  
+ []
+
+
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 248--250
+[]  
+ []
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 4.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+
+[2] (resume 2-page.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -424,20 +454,20 @@ L3 programming layer <2024-01-04>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `"resume 2-page".out' has not changed.
-(rerunfilecheck)             Checksum: 3C37A8D754BDACF3701A048D4F9EE53B;554.
+(rerunfilecheck)             Checksum: 71A155007ED22D5F8CC2831E3A3D4957;632.
  ) 
 Here is how much of TeX's memory you used:
- 14142 strings out of 474486
- 244693 string characters out of 5753570
- 1955542 words of memory out of 5000000
- 36256 multiletter control sequences out of 15000+600000
+ 14145 strings out of 474486
+ 244719 string characters out of 5753570
+ 1954542 words of memory out of 5000000
+ 36257 multiletter control sequences out of 15000+600000
  565578 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,570b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,596b,713s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\mschm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcsl1000.pk><C:/Users/mschm/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/mschm/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "resume 2-page.pdf" (1 page, 148903 bytes).
+Output written on "resume 2-page.pdf" (2 pages, 156925 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
