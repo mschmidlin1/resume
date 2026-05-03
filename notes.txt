@@ -3,9 +3,6 @@
 
 Bullets to add for experience:
 
-under additional projects - add the python library ds-flow
-under additional projects - add the harmonic series analysis
-
 
 
 
