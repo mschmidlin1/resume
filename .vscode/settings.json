@@ -1,0 +1,7 @@
+{
+  "latex-workshop.latex.outDir": "%DIR%",
+  "latex-workshop.latex.auxDir": "%DIR%/compile-work",
+  "files.exclude": {
+    "compile-work": true
+  }
+}
