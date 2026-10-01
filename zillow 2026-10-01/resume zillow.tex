@@ -1,0 +1,249 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newlist{nobulletlist}{itemize}{1}
+\setlist[nobulletlist]{label={}, leftmargin=\dimexpr\labelwidth+\labelsep\relax}
+
+\newcommand{\projectDescription}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\small\textbf{#1}} & {\small\textbf{#2}} \\
+      {\small\textbf{#3}} & {\small\textbf{#4}} \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\educationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\small\textbf{#1}} & {\small\textbf{#2}} \\
+      {\small{\textsl{#3}}} & {\small{\textsl{#4}}} \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\small\textbf{#1}} & {\small\textbf{#2}} \\
+    \end{tabular*}\vspace{-17pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% Custom command for experience takeaway (non-bulleted summary)
+\newcommand{\resumeTakeaway}[1]{
+  
+  \vspace{4pt}
+  \small{\textsl{#1}}
+  \vspace{-5pt}
+}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Michael Schmidlin} \\
+    \vspace{3pt}
+    \small
+    \begin{tabular}{@{} l @{\hspace{9.4cm}} l @{}} % Two columns, left-justified, 1cm space between
+      \raisebox{-0.1\height}\faPhone\ 607-438-8197 &
+      \href{mailto:mschmidlin1@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ mschmidlin1@gmail.com} \\
+      \href{https://www.linkedin.com/in/michael-schmidlin/}{\raisebox{-0.2\height}\faLinkedin\ linkedin.com/in/michael-schmidlin/} &
+      \href{https://github.com/mschmidlin1}{\raisebox{-0.2\height}\faGithub\ github.com/mschmidlin1} \\
+      \raisebox{-0.1\height} & \href{https://michael.schmidlin.casa}{\raisebox{-0.2\height}\faGlobe\ michael.schmidlin.casa}
+    \end{tabular}
+  \end{center}
+
+%-----------EXPERIENCE-----------
+\vspace{-24pt}
+\section{Summary}
+{\small
+Data Scientist (MS) with 8+ years of experience and expertise in computer vision, data analysis, and machine learning. Proven ability to lead projects, effectively communicate technical subjects to stake holders, and collaborate with cross-functional teams to deliver impactful results. 
+}
+
+
+\vspace{-10pt}
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+        {Corning Incorporated}{Corning, NY}
+        {Staff Data Scientist}{2026 -- Current}
+        \resumeTakeaway{Developed machine learning solutions for measurement and process applications in order to improve business capability.}
+        \resumeItemListStart
+          \resumeItem{Increased image segmentation capability by creating an ML-Ops pipeline for prism coupled spectroscopy data. Built a React dashboard front end along with data systems (MongoDB and S3) for managing raw images and labels.}
+          \resumeItem{Mentored across career levels (interns, technicians, and junior engineers) in statistical analysis, software, and presenting results, building independent team capability.}
+        \resumeItemListEnd
+
+    \resumeSubSubheading
+      {Sr. Data Scientist}{2022 -- 2026}
+      \resumeTakeaway{Led data science initiatives to improve characterizations of chemically strengthened glass used in mobile devices which enabled quality control of the manufacturing process.}
+      \resumeItemListStart
+        \resumeItem{Invented a new algorithm (patent pending) to localize new types of features in an image using a moving window Fourier Transform.}
+        \resumeItem{Removed a production blocking issue for the next genration of glass-ceramic phone glass by using image normalization to correct for optical aberrations in the background of the image (patent pending).}
+        \resumeItem{Decreased production loss by enhancing an existing image processing algorithm with a classification neural network. The classification model improved feature detection in edge case scenarios by 90\%.}
+        \resumeItem{Reduced risk for customer in the measurement system by developing a software framework to validate measurement images in live camera view. The image processing runs asynchronously at 20fps while annotating image features which creates a smooth user experience.}
+        \resumeItem{Expanded acceptable range of glass stress by $\sim 20\%$ without increasing risk to customer by modeling glass frangibility (brittleness) with Logistic Regression in order to more accurately determine the USL (Upper Spec Limit). The model was deployed to a streamlit web app for use with future glass recipes.}
+        \resumeItem{Enabled 5 years of consistent software releases by automating Gauge Repeatability and Reproducibility (GRR) analysis in a streamlit web app for use by our software QA (Quality Assurance) team.}
+      \resumeItemListEnd
+
+    \resumeSubSubheading
+      {Measurement Engineer}{2018 -- 2022}
+      \resumeTakeaway{Accelerated development of glass vial measurement systems to high volume manufacturing as part of \$204M government program \textit{Operation Warp Speed}.}
+      \resumeItemListStart
+        \resumeItem{Performed and automated data analysis on production data using python scripts and SQL queries to determine effectiveness of inline measurement systems.}
+        \resumeItem{Quantified repeatability of measurement systems through GRR and Analysis of Variance across a wide range of glass attributes such as stress, thickness, warp, and defect sizing.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \educationHeading
+    {Data Science Master's Degree}{2023}
+    {University of Denver, Daniel Felix Ritchie School of Engineering \& Computer Science}{Remote}
+  \educationHeading
+    {Math \& Music Bachelor's Degree}{2018}
+    {State University of New York at Potsdam}{Potsdam, NY}
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Additional Projects}
+    \vspace{-5pt}
+      \resumeSubHeadingListStart
+          \resumeProjectHeading
+          {\textbf{\href{https://trendline.schmidlin.casa}{TrendLine}} $|$ \emph{Python, alpaca, Ollama}}{2026}
+          \begin{nobulletlist}
+            \projectDescription{Engineered an automated stock trading program which uses financial news data to determine market sentiment and trade stocks.}
+          \end{nobulletlist}
+            \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Slide Quest} $|$ \emph{Python, pygame}}{2024-2025}
+          \begin{nobulletlist}
+            \projectDescription{Developed a top down puzzle game in python for PC. Key features: seeded map generation, breadth first search level solver, custom level editor, dependency injection and IOC.}
+          \end{nobulletlist}
+          \vspace{-13pt}
+    \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, C\#, React, SQL} \\
+     \textbf{Tech Tools}{: Cursor, Claude Code, VS Code, Visual Studio, .Net, WPF, Git, S3, Machine Learning, IOC/Dependency Injection, Kubernetes} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+
+
+
+\end{document}
